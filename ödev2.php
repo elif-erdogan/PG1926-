@@ -25,9 +25,9 @@ if ($_POST) {
         $i++;
     }
     if ($num == $sum) {
-        echo " <span style = 'color:green'> The number is Perfect Number!!</span> ";
+        echo " <span style = 'color:yellow'> The number is Perfect Number!!</span> ";
     } else {
-        echo " <span style = 'color:red'> The number is not a Perfect Number!!</span> ";
+        echo " <span style = 'color:blue'> The number is not a Perfect Number!!</span> ";
     }
 }
 ?>
